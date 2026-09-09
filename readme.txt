@@ -3,7 +3,7 @@ Contributors: xwp
 Tags: wp stream, stream, activity, logs, track
 Requires at least: 4.6
 Tested up to: 6.6
-Stable tag: 4.0.2
+Stable tag: 4.0.3
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -133,6 +133,12 @@ Use only `$_SERVER['REMOTE_ADDR']` as the client IP address for event logs witho
 
 
 == Changelog ==
+
+= 4.0.3 - September 9, 2026 =
+
+**Security update**
+
+- Allow only safe URLs for Slack alerts (in [#1652](https://github.com/xwp/stream/pull/1652)). Props to [@francescocarlucci](https://github.com/francescocarlucci) for responsibly disclosing this issue.
 
 = 4.0.2 - August 22, 2024 =
 
